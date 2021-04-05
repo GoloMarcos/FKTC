@@ -14,8 +14,8 @@ datasets_dictionary = datasets.load()
 dataset_dictionaty[base name] return a DataFrame
 
 # Datasets
-- Fake Checked News (fcn)
-- Fake (fnn)
+- Fact Checked News (fcn)
+- Fake News Net (fnn)
 - Fake BR (fakebr)
 
 # Columns from DataFrame
