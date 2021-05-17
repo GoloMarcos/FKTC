@@ -14,7 +14,7 @@ datasets_dictionary = datasets.load()
 dataset_dictionaty[base name] return a DataFrame
 
 # Datasets
-- Fact Checked News (fcn) : RIBEIRO, V. H. P. Identificação de notícias falsas em língua portuguesa. Monografia (TCC). Universidade Federal de Mato Grosso do Sul, 2019. Citado nas páginas 34 e 96.
+- Fact Checked News (fcn) : RIBEIRO, V. H. P. Identificação de notícias falsas em língua portuguesa. Monografia (TCC). Universidade Federal de Mato Grosso do Sul, 2019.
 
 - Fake News Net (fnn): Fakenewsnet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media. Big Data, v. 8, n. 3, p. 171–188, 2020.
 
