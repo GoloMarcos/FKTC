@@ -25,8 +25,8 @@ dataset_dictionaty[base name] return a DataFrame
 - Text
 - Class
 - Folds
-- Features from LIWK
-- Features Normalized from LIWK
+- Features from LIWC
+- Features Normalized from LIWC
 - Embedding from BERT
 - Embedding from DistilBERT
 - Embeddings from Multilingual DistilBERT 
