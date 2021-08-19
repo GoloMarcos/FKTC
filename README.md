@@ -32,7 +32,7 @@ dataset_dictionaty[base name] return a DataFrame
 - Embeddings from Multilingual DistilBERT 
 - Embedding from RoBERTa
 
-# We obtain the embeddings with the library sentence_tranformers
+# We obtain the embeddings with the library sentence_tranformers (https://www.sbert.net/)
 - BERT model: bert-large-nli-stsb-mean-tokens
   -  Devlin, Jacob, et al. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). 2019.
 - DistilBERT model: distilbert-base-nli-stsb-mean-tokens
