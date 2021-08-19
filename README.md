@@ -38,6 +38,6 @@ dataset_dictionaty[base name] return a DataFrame
 - DistilBERT model: distilbert-base-nli-stsb-mean-tokens
   -  Sanh, Victor, et al. "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter." arXiv preprint arXiv:1910.01108 (2019).
 - RoBERTa model: roberta-large-nli-stsb-mean-tokens
-  - Liu, Yinhan, et al. "Roberta: A robustly optimized bert pretraining approach." arXiv preprint arXiv:1907.11692 (2019).
+  - Liu, Zhuang, et al. "A Robustly Optimized BERT Pre-training Approach with Post-training." China National Conference on Chinese Computational Linguistics. Springer, Cham, 2021.
 - DistilBERT Multilingual model: distiluse-base-multilingual-cased
-  - Sanh, Victor, et al. "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter." arXiv preprint arXiv:1910.01108 (2019).
+  - Reimers, Nils, and Iryna Gurevych. "Making Monolingual Sentence Embeddings Multilingual Using Knowledge Distillation." Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2020.
