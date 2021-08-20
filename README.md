@@ -21,16 +21,16 @@ dataset_dictionaty[base name] return a DataFrame
 - Fake BR (fakebr): MONTEIRO, R.; SANTOS, R.; PARDO, T.; ALMEIDA, T. de; RUIZ, E.; VALE, O. Contributions to the study of fake news in portuguese: New corpus and automatic detection results. In: PROPOR 2018: International Conference on Computational Processing of the Portuguese Language. [S.l.]: Springer, 2018. p. 324–334.
 
 # Columns from DataFrame
-- *Index*: Id
-- Text: Content of the news
-- Class: Fake (1) | Real (-1)
-- Folds: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-- Features from LIWC: 63 features extrected using Linguistic Inquiry and Word Count (LIWC)
-- Features Normalized from LIWC: 63 features with normalization extrected using LIWC
-- Embedding from BERT: vector with 1024 real values
-- Embedding from DistilBERT: vector with 512 real values
-- Embeddings from Multilingual DistilBERT: vector with 512 real values
-- Embedding from RoBERTa: vector with 724 real values
+- **index**: Id
+- **text**: Content of the news
+- **class: Fake (1) | Real (-1)
+- **folds: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+- **features**: 63 features extrected using Linguistic Inquiry and Word Count (LIWC)
+- **features_normalized**: 63 features with normalization extrected using LIWC
+- **BERT**: embedding with 1024 real values
+- **DistilBERT**: embedding with 512 real values
+- **Multilingual DistilBERT**: embedding with 512 real values
+- **RoBERTa**: embedding with 724 real values
 
 
 # Linguistic Inquiry and Word Count (LIWC)
