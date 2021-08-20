@@ -32,6 +32,10 @@ dataset_dictionaty[base name] return a DataFrame
 - Embeddings from Multilingual DistilBERT 
 - Embedding from RoBERTa
 
+
+# LIWC
+- Pennebaker, James W., et al. The development and psychometric properties of LIWC2015. 2015.
+
 # We obtain the embeddings with the library sentence_tranformers (v==1.0.4) (https://www.sbert.net/)
 - BERT model: bert-large-nli-stsb-mean-tokens
   -  Devlin, Jacob, et al. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). 2019.
