@@ -15,7 +15,7 @@ def load(path_files='', only_download = False, dataset = 'All'):
     if not isfile(path_files + 'News.zip'):
       if path_files != '': 
         print('Download News.zip')
-        cmd = 'gdown --id  -O ' + path_files + 'News.zip'
+        cmd = 'gdown --id  -O 14myhLA6c-T2wsf8Q8wkSGq2kbTvRAdF4' + path_files + 'News.zip'
         os.system(cmd)
       
       print('Download Finished!')
