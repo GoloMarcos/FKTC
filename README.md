@@ -32,8 +32,8 @@ dataset_dictionaty[base name] return a DataFrame
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Language | pt | pt | en | en | en | en |
 | Fake News | 1,044 | 3.6k | 1,705 | 3k | 3k | 3k |
-| Real News | 1,124 | 3.6k | 5,298 | 3k | 3k | 3k |
-| Total News | 2,164 | 7.2k | 7,003 | 6k | 6k | 6k |
+| Real News | 1,020 | 3.6k | 5,298 | 3k | 3k | 3k |
+| Total News | 2,064 | 7.2k | 7,003 | 6k | 6k | 6k |
 
 # Columns from DataFrame
 - **index**: id
