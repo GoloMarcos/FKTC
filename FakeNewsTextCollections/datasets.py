@@ -1,32 +1,42 @@
 import pandas as pd
 import os
+from os.path import isdir, isfile
 from pathlib import Path
-from os.path import isfile
 
-def load(path_files=''):
+def load(path_files='', only_download = False, dataset = 'All'):
 
   '''
-  this function download and load all datasets and return a dictionary in which any key represent the dataset
+  this function download and load all datasets, and return a dictionary in which any key represent the dataset
   
-  if the files already exist, to load them, pass the path where the files are through the path_files parameter
+  if the directory already exist, to load them, pass the path where the directory are through the path_files parameter
+  
   '''
+  if not isdir(path_files + 'News/'):
+    if not isfile(path_files + 'News.zip'):
+      if path_files != '': 
+        print('Download News.zip')
+        cmd = 'gdown --id  -O ' + path_files + 'News.zip'
+        os.system(cmd)
+      
+      print('Download Finished!')
+      
+    cmd2 = 'unzip ' + path_files + 'News.zip'
+    print('Unzip News.zip')
+    os.system(cmd2)
+    print('Unzip Finished!')
+    
+  if not only_download:
+    if dataset == 'All':
+      basepath = Path(path_files + 'News/')
+      files_in_basepath = basepath.iterdir()
+      datasets = {}
+      for item in files_in_basepath:
+        if item.is_file():
+          df = pd.read_pickle(path_files + 'News/' + item.name)
+          datasets[item.name.replace('.plk','')] = df
+    
+    else:
+      datasets = {}
+      datasets[dataset] = pd.read_pickle(path_files + 'News/' + dataset + '.plk')
 
-  if not isfile(path_files + 'fakebr.plk'):
-    cmd = 'gdown --id 1TfBnP4-fUsIZtvDKtqXpUb4NvKLS5Kkz -O ' + path_files + 'fakebr.plk'
-    os.system(cmd) # FakeBr
-
-  if not isfile(path_files + 'fcn.plk'):
-    cmd = 'gdown --id 1-1GRgEOqAl46WX9yVLE6WEyDLtljVz7B -O ' + path_files + 'fcn.plk'
-    os.system(cmd) # FCN
-  
-  if not isfile(path_files + 'fnn.plk'):
-    cmd = 'gdown --id 1--GbGtCP3OCExNmdlgU-M7BHa9FMIHaA -O ' + path_files + 'fnn.plk'
-    os.system(cmd)  # FNN
-
-  bases = {
-    'fcn' : pd.read_pickle(path_files + 'fcn.plk'),
-    'fakebr' : pd.read_pickle(path_files + 'fakebr.plk'),
-    'fnn' : pd.read_pickle(path_files + 'fnn.plk')
-  }
-
-  return bases
+    return datasets
