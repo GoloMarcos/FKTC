@@ -21,7 +21,7 @@ dataset_dictionaty[base name] return a DataFrame
 - Fake BR (fakebr): MONTEIRO, R.; SANTOS, R.; PARDO, T.; ALMEIDA, T. de; RUIZ, E.; VALE, O. Contributions to the study of fake news in portuguese: New corpus and automatic detection results. In: PROPOR 2018: International Conference on Computational Processing of the Portuguese Language. [S.l.]: Springer, 2018. p. 324–334.
 
 # Columns from DataFrame
-- Index: Id
+- *Index*: Id
 - Text: Content of the news
 - Class: Fake (1) | Real (-1)
 - Folds: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
