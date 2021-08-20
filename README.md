@@ -1,4 +1,4 @@
-# Fake News Text Collections (FNTC)
+# FaKe news Text Collections (FKTC)
 Library to use fakenews text collections
 
 # How To use
