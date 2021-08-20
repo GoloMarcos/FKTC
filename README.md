@@ -28,7 +28,7 @@ dataset_dictionaty[base name] return a DataFrame
 
 # Datasets Size
 
-| Datasets | fcn | fnn | fakebr | fnc0 | fnc1 | fnc2 |
+| - | fcn | fnn | fakebr | fnc0 | fnc1 | fnc2 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Language | pt | pt | en | en | en | en |
 | Fake News | 1,044 | 3.6k | 1,705 | 3k | 3k | 3k |
