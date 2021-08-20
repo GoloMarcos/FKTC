@@ -26,7 +26,7 @@ dataset_dictionaty[base name] return a DataFrame
 
 - **Fake News Corpus 2 (fnc2)** : collection derived from https://github.com/several27/FakeNewsCorpus
 
-# Datasets Size
+# Datasets Characteristics
 
 | - | fcn | fnn | fakebr | fnc0 | fnc1 | fnc2 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
