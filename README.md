@@ -31,9 +31,13 @@ dataset_dictionaty[base name] return a DataFrame
 Datasets | #fcn | #fnn | #fakebr | #fnc0 | #fnc1 | #fnc2 |
 --- | --- | --- | --- |--- |--- |--- |
 Language | pt | pt | en | en | en | en |
+--- | --- | --- | --- |--- |--- |--- |
 Fake News | 1,044 | pt | en | en | en | en |
+--- | --- | --- | --- |--- |--- |--- |
 Real News | 1,124 | pt | en | en | en | en |
+--- | --- | --- | --- |--- |--- |--- |
 Total News | 2,164 | pt | en | en | en | en |
+--- | --- | --- | --- |--- |--- |--- |
 
 # Columns from DataFrame
 - **index**: id
