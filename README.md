@@ -20,11 +20,17 @@ dataset_dictionaty[base name] return a DataFrame
 
 - **Fake BR (fakebr)** : MONTEIRO, R.; SANTOS, R.; PARDO, T.; ALMEIDA, T. de; RUIZ, E.; VALE, O. Contributions to the study of fake news in portuguese: New corpus and automatic detection results. In: PROPOR 2018: International Conference on Computational Processing of the Portuguese Language. [S.l.]: Springer, 2018. p. 324–334.
 
-- **Fake News Corpus 0 (fnc0)** : https://github.com/several27/FakeNewsCorpus
+- **Fake News Corpus 0 (fnc0)** : collection derived from https://github.com/several27/FakeNewsCorpus
 
-- **Fake News Corpus 1 (fnc1)** : https://github.com/several27/FakeNewsCorpus
+- **Fake News Corpus 1 (fnc1)** : collection derived from https://github.com/several27/FakeNewsCorpus
 
-- **Fake News Corpus 2 (fnc2)** : https://github.com/several27/FakeNewsCorpus
+- **Fake News Corpus 2 (fnc2)** : collection derived from https://github.com/several27/FakeNewsCorpus
+
+# Datasets Size
+
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 # Columns from DataFrame
 - **index**: id
