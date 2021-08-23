@@ -9,12 +9,12 @@ def load(path_files='', only_download = False, dataset = 'All'):
   this function download and load all datasets, and return a dictionary in which any key represent the dataset
   
   if the directory already exist, to load them, pass the path where the directory are through the path_files parameter
-  
   '''
+  
   if not isdir(path_files + 'News/'):
     if not isfile(path_files + 'News.zip'):
       print('Download News.zip')
-      cmd = 'gdown --id -O 14myhLA6c-T2wsf8Q8wkSGq2kbTvRAdF4 ' + path_files + 'News.zip'
+      cmd = 'wget -P ' + path_files +  ' https://zenodo.org/record/5236636/files/News.zip'
       print(cmd)
       os.system(cmd)
       print('Download Finished!')
