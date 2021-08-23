@@ -6,5 +6,5 @@ setup (
     version = '1.1.0', 
     description = 'Library to use fakenews text collectins', 
     author = 'Marcos P. S. Gôlo',  
-    install_requires = ['gdown', 'pandas', 'pathlib']
+    install_requires = ['gdown', 'pandas']
 )
