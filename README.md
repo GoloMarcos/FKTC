@@ -41,9 +41,9 @@ dataset_dictionaty[base name] return a DataFrame
 - **features**: 63 features extracted using Linguistic Inquiry and Word Count (LIWC)
 - **features_normalized**: 63 features with normalization extracted using LIWC
 - **BERT**: embedding with 1024 real values
-- **DistilBERT**: embedding with 512 real values
+- **DistilBERT**: embedding with 768 real values
 - **Multilingual DistilBERT**: embedding with 512 real values
-- **RoBERTa**: embedding with 724 real values
+- **RoBERTa**: embedding with 1024 real values
 
 
 # Linguistic Inquiry and Word Count (LIWC)
