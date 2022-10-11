@@ -9,7 +9,7 @@ from FakeNewsTextCollections import datasets
 
 datasets_dictionary = datasets.load()
 
-datasets_dictionaty[base name] return a DataFrame
+datasets_dictionary[base name] return a DataFrame
 
 # Datasets
 - **Fact Checked News (fcn)** : RIBEIRO, V. H. P. Identificação de notícias falsas em língua portuguesa. Monografia (TCC). Universidade Federal de Mato Grosso do Sul, 2019.
