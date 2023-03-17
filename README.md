@@ -1,6 +1,17 @@
 # FaKe news Text Collections (FKTC)
 Library to use fakenews text collections
 
+If you use any part of this code in your research, please cite it using the following BibTex entry
+```latex
+@inproceedings{ref:Golo2021,
+  title={Learning textual representations from multiple modalities to detect fake news through one-class learning},
+  author={Gôlo, Marcos and Caravanti, Mariana and Rossi, Rafael and Rezende, Solange and Nogueira, Bruno and Marcacini, Ricardo},
+  booktitle={Proceedings of the Brazilian Symposium on Multimedia and the Web},
+  pages={197--204},
+  year={2021}
+}
+```
+
 # How To use
 
 !pip install git+https://github.com/GoloMarcos/FKTC/
