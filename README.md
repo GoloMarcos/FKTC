@@ -13,14 +13,12 @@ If you use any part of this code in your research, please cite it using the foll
 ```
 
 # How To use
-
+```python
 !pip install git+https://github.com/GoloMarcos/FKTC/
-
 from FakeNewsTextCollections import datasets
-
 datasets_dictionary = datasets.load()
-
 datasets_dictionary[base name] return a DataFrame
+```
 
 # Datasets
 - **Fact Checked News (fcn)** : RIBEIRO, V. H. P. Identificação de notícias falsas em língua portuguesa. Monografia (TCC). Universidade Federal de Mato Grosso do Sul, 2019.
