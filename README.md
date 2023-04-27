@@ -17,7 +17,7 @@ If you use any part of this code in your research, please cite it using the foll
 !pip install git+https://github.com/GoloMarcos/FKTC/
 from FakeNewsTextCollections import datasets
 datasets_dictionary = datasets.load()
-df = datasets_dictionary['FCN']
+df = datasets_dictionary['fcn']
 ```
 
 # Datasets
