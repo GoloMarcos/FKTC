@@ -37,7 +37,7 @@ df = datasets_dictionary['fcn']
 
 | - | fcn | fakebr | fnn | fnc0 | fnc1 | fnc2 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Language | pt | en | pt | en | en | en |
+| Language | pt | pt | en | en | en | en |
 | Fake News | 1,044 | 3,598 | 1,705 | 3,000 | 3,000 | 3,000 |
 | Real News | 1,020 | 3,598 | 5,298 | 3,000 | 3,000 | 3,000 |
 | Total News | 2,064 | 7,196 | 7,003 | 6,000 | 6,000 | 6,000 |
