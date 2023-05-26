@@ -35,7 +35,7 @@ df = datasets_dictionary['fcn']
 
 # Datasets Characteristics
 
-| - | fcn | fnn | fakebr | fnc0 | fnc1 | fnc2 |
+| - | fcn | fakebr | fnn | fnc0 | fnc1 | fnc2 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Language | pt | en | pt | en | en | en |
 | Fake News | 1,044 | 3,598 | 1,705 | 3,000 | 3,000 | 3,000 |
